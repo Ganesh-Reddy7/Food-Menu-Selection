@@ -1,0 +1,67 @@
+<html>
+<style type="text/css">
+*{margin:0px;
+  padding:0px;
+  list-style:none;}
+ ul li{
+	background-color:green;
+	border:1px solid white;
+	width:100px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	border-radius:8px;
+	}
+ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	position:relative;}
+ul li a:hover{
+	background-color:blue;
+	border-radius:8px;}
+ul ul{
+	position:absolute;
+	display:none;}
+ul li:hover>ul{
+	display:block;}
+ul ul ul{
+	margin-left:100px;
+	top:0px;}
+</style>
+<body>
+<div id="mess">
+ <ul>
+   <li><a href="#">Day</a>
+    <ul>
+	<li><a href="#">Monday</a>
+	 <ul>
+	  <li><a href="#">Breakfast</a></li>
+	  <li><a href="#">Lunch</a></li>
+	  <li><a href="#">Dinner</a></li>
+	 </ul>
+	</li>
+	<li><a href="#">Tuesday</a>
+	 <ul>
+	  <li><a href="#">breakfast</a></li>
+	  <li><a href="#">Lunch</a></li>
+	  <li><a href="#">Dinner</a></li>
+	 </ul>
+	</li>
+	<li><a href="#">Wednesday</a>
+	  <ul>
+	  <li><a href="#">Breakfast</a></li>
+	  <li><a href="#">Lunch</a></li>
+	  <li><a href="#">Dinner</a></li>
+	 </ul>
+	</li>
+	<li><a href="#">Thursday</a></li>
+	<li><a href="#">Friday</a></li>
+	<li><a href="#">Saturday</a></li>
+	<li><a href="#">Sunday</a></li>
+    </ul
+    </li>
+ </ul>
+</div>
+</body>
+</html>
