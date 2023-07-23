@@ -22,6 +22,8 @@ Get ready to embark on a gastronomic adventure like no other, as you explore the
 
 ## Demo
 
+Find the main file **index.html** to start the execution of the project.
+
 Step-by-Step Procedure for Selecting Food Menu for Breakfast, Lunch, and Dinner Every Day:
 
 1. Assess Dietary Needs and Preferences:
